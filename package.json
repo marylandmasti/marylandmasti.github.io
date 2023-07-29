@@ -10,8 +10,7 @@
     "format": "npx prettier --write .",
     "check": "npx prettier --check .",
     "eslint": "npx eslint . --ext js --ext jsx",
-    "prepare": "husky install",
-    "deploy": "next build && next export && gh-pages -d out"
+    "prepare": "husky install"
   },
   "dependencies": {
     "autoprefixer": "^10.4.14",
