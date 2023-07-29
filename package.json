@@ -10,13 +10,15 @@
     "format": "npx prettier --write .",
     "check": "npx prettier --check .",
     "eslint": "npx eslint . --ext js --ext jsx",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "deploy": "next build && next export && gh-pages -d out"
   },
   "dependencies": {
     "autoprefixer": "^10.4.14",
     "bootstrap": "^5.3.0",
     "eslint-config-next": "^13.4.6",
     "eslint-config-prettier": "^8.8.0",
+    "gh-pages": "^5.0.0",
     "next": "^13.4.7",
     "postcss": "^8.4.24",
     "react": "^18.2.0",
