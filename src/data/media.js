@@ -1,59 +1,59 @@
 export const teams = [
   {
-    name: "team",
+    name: "UF GatoRaas",
     textColor: "text-white",
     bgColor: "bg-masti-red-200",
     image:
-      "https://pbs.twimg.com/profile_images/2845270207/fd11d795f68fd4845f463246f67038e8_400x400.jpeg",
+      "https://pbs.twimg.com/profile_images/511944021355532289/cj69W88R_400x400.jpeg",
   },
   {
-    name: "team",
+    name: "RU Raga",
     textColor: "text-masti-beige",
     bgColor: "bg-masti-red-300",
     image:
-      "https://pbs.twimg.com/profile_images/2845270207/fd11d795f68fd4845f463246f67038e8_400x400.jpeg",
+      "https://pbs.twimg.com/profile_images/1846594049/RAGA_Logo_400x400.jpg",
   },
   {
-    name: "team",
+    name: "UCF KnightRaas",
     textColor: "text-masti-red-300",
     bgColor: "bg-masti-red-100",
     image:
-      "https://pbs.twimg.com/profile_images/2845270207/fd11d795f68fd4845f463246f67038e8_400x400.jpeg",
+      "https://pbs.twimg.com/profile_images/1228512192376582144/HfSkat9K_400x400.jpg",
   },
   {
-    name: "team",
+    name: "UConn Thunderaas",
     textColor: "text-masti-beige",
     bgColor: "bg-masti-red-300",
     image:
-      "https://pbs.twimg.com/profile_images/2845270207/fd11d795f68fd4845f463246f67038e8_400x400.jpeg",
+      "https://pbs.twimg.com/profile_images/1077356592100724736/7rksTWQO_400x400.jpg",
   },
   {
-    name: "team",
+    name: "Michigan Wolveraas",
     textColor: "text-white",
     bgColor: "bg-masti-red-100",
     image:
-      "https://pbs.twimg.com/profile_images/2845270207/fd11d795f68fd4845f463246f67038e8_400x400.jpeg",
+      "https://pbs.twimg.com/profile_images/1262126591355817986/-TxJQGem_400x400.jpg",
   },
   {
-    name: "team",
+    name: "UCB Raas Ramzat",
     textColor: "text-white",
     bgColor: "bg-masti-red-200",
     image:
-      "https://pbs.twimg.com/profile_images/2845270207/fd11d795f68fd4845f463246f67038e8_400x400.jpeg",
+      "https://se-images.campuslabs.com/clink/images/7c2f1e8c-0e6f-467b-82dc-b0f453eef8d10bdbf3ab-acdd-4698-96b0-39d7d605b242.png?preset=med-sq",
   },
   {
-    name: "team",
+    name: "BU Fatakada",
     textColor: "text-masti-beige",
     bgColor: "bg-masti-red-300",
     image:
-      "https://pbs.twimg.com/profile_images/2845270207/fd11d795f68fd4845f463246f67038e8_400x400.jpeg",
+      "https://pbs.twimg.com/profile_images/1825579902/images_400x400.jpeg",
   },
   {
-    name: "team",
+    name: "GT Ramblin' Raas",
     textColor: "text-masti-red-300",
     bgColor: "bg-masti-red-100",
     image:
-      "https://pbs.twimg.com/profile_images/2845270207/fd11d795f68fd4845f463246f67038e8_400x400.jpeg",
+      "https://se-images.campuslabs.com/clink/images/997374ce-b64a-47e0-9a20-e3417ee0a6adc301b06f-2ead-4a73-b023-380877b793eb.png?preset=med-sq",
   },
 ];
 
