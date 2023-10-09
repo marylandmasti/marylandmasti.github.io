@@ -35,7 +35,7 @@ const Media = () => {
             xs={6}
             xl={3}
           >
-            <img src={team.image} className="" />
+            <img src={team.image} className="" style={{ width: '400px', height: '400px' }} />
             <p className={`font-anton text-lg m-0 ${team.textColor}`}>
               {team.name}
             </p>
