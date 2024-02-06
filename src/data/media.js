@@ -14,18 +14,18 @@ export const teams = [
       "https://pbs.twimg.com/profile_images/1846594049/RAGA_Logo_400x400.jpg",
   },
   {
-    name: "UCF KnightRaas",
+    name: "WiscoRaas",
     textColor: "text-masti-red-300",
     bgColor: "bg-masti-red-100",
     image:
-      "https://pbs.twimg.com/profile_images/1228512192376582144/HfSkat9K_400x400.jpg",
+      "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-avt-0068-tx/f52d455c6f6cf61eb457fb7e8dedc497~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1707357600&x-signature=HxRSjbOwUR1XxyFN7RfkDvEOVTI%3D",
   },
   {
-    name: "UConn Thunderaas",
+    name: "Texas Raas",
     textColor: "text-masti-beige",
     bgColor: "bg-masti-red-300",
     image:
-      "https://pbs.twimg.com/profile_images/1077356592100724736/7rksTWQO_400x400.jpg",
+      "https://se-images.campuslabs.com/clink/images/4aaefe8a-9059-4354-a95d-cde232088a1948fe8b69-9b72-4c27-abf7-35152d859f98.png?preset=med-sq",
   },
   {
     name: "Michigan Wolveraas",
@@ -35,25 +35,25 @@ export const teams = [
       "https://pbs.twimg.com/profile_images/1262126591355817986/-TxJQGem_400x400.jpg",
   },
   {
-    name: "UCB Raas Ramzat",
+    name: "VT Dhamaal",
     textColor: "text-white",
     bgColor: "bg-masti-red-200",
     image:
-      "https://se-images.campuslabs.com/clink/images/7c2f1e8c-0e6f-467b-82dc-b0f453eef8d10bdbf3ab-acdd-4698-96b0-39d7d605b242.png?preset=med-sq",
+      "https://pbs.twimg.com/profile_images/1026289511368716288/QNjK9ZaA_400x400.jpg",
   },
   {
-    name: "BU Fatakada",
+    name: "UNC TarHeel Raas",
     textColor: "text-masti-beige",
     bgColor: "bg-masti-red-300",
     image:
-      "https://pbs.twimg.com/profile_images/1825579902/images_400x400.jpeg",
+      "https://se-images.campuslabs.com/clink/images/885f6ea2-6368-4940-bc95-338f12d31eed9b533505-3909-46c3-9e8a-7b618d831915.jpg?preset=med-sq",
   },
   {
-    name: "GT Ramblin' Raas",
+    name: "Steel City Raas",
     textColor: "text-masti-red-300",
     bgColor: "bg-masti-red-100",
     image:
-      "https://se-images.campuslabs.com/clink/images/997374ce-b64a-47e0-9a20-e3417ee0a6adc301b06f-2ead-4a73-b023-380877b793eb.png?preset=med-sq",
+      "https://p19-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-avt-0068-tx/0b2234435369429e704fda337385698c~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1707357600&x-signature=rUBJ0fnlz1JJjxh1gaLt%2BprX%2Fu8%3D",
   },
 ];
 
