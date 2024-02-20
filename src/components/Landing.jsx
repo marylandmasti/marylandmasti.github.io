@@ -33,7 +33,7 @@ const Landing = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://kchinna.github.io"
+          href="https://maryland-masti.ticketleap.com/mm17-comp-show/"
           className=" duration-300 hover:scale-110 font-anton bg-masti-beige text-masti-red-200 self-center text-cl md:text-3xl no-underline px-8 py-2 my-2 md:my-5"
         >
           AFTER PARTY
