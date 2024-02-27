@@ -40,7 +40,7 @@ const Navigation = () => {
               className="no-underline m-0 flex items-center p-0 w-full"
               onClick={() => setSelected("Logo")}
             >
-              <img src="logo.svg" className="m-0 p-0 w-full" alt="logo" />
+              <img src="testudo.png" className="m-0 p-0 w-full" alt="logo" />
             </Link>
           </Navbar.Brand>
           <Navbar.Collapse className="items-center md:justify-end justify-center md:mr-10">
