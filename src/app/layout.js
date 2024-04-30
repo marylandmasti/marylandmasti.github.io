@@ -65,7 +65,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <>
-      <Head>
+      <Head></Head>
+      <body className={`${poppins.variable} ${anton.variable}`}>
         {/* Add Google Ads tag here */}
         <script
           async
@@ -81,8 +82,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         ></script>
-      </Head>
-      <body className={`${poppins.variable} ${anton.variable}`}>
+
         <Navigation />
         {children}
         <Footer />
