@@ -56,6 +56,7 @@ const anton = Anton({
 });
 
 const GOOGLE_ADS_ID = "AW-16542424127";
+const GOOGLE_ADS_ID_2 = "G-Q57NSKP3N8";
 
 export const metadata = {
   title: "Maryland Masti",
@@ -79,6 +80,22 @@ export default function RootLayout({ children }) {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', '${GOOGLE_ADS_ID}');
+            `,
+          }}
+        ></script>
+
+        {/* Add second Google Ads tag */}
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID_2}`}
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GOOGLE_ADS_ID_2}');
             `,
           }}
         ></script>
