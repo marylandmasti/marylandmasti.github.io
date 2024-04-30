@@ -55,7 +55,7 @@ const anton = Anton({
   subsets: ["latin"],
 });
 
-const GOOGLE_ADS_ID = "YOUR_GOOGLE_ADS_ID";
+const GOOGLE_ADS_ID = "AW-16542424127";
 
 export const metadata = {
   title: "Maryland Masti",
