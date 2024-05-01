@@ -100,6 +100,15 @@ export default function RootLayout({ children }) {
           }}
         ></script>
 
+        {/* Add conversion tracking script */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              gtag('event', 'conversion', { 'send_to': 'AW-16542424127/n-AhCKqQkqoZEL-4hdA9', 'value': 1.0, 'currency': 'USD' });
+            `,
+          }}
+        ></script>
+
         <Navigation />
         {children}
         <Footer />
