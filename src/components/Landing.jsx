@@ -21,16 +21,18 @@ const Landing = () => {
       />
       <div className="relative w-2/3 md:w-1/2 flex flex-col">
         <img className="w-1/2 md:w-1/3 mx-auto" src="/testudo.png" />
+        {/* Title */}
         <p className="m-0 text-white font-anton text-4xl md:text-8xl border-b-4 border-masti-red-200 w-fit self-center">
           Maryland Masti
         </p>
-        <p className="m-0 text-white font-poppins text-lg md:text-2xl font-extralight self-center text-right">
+        {/* Subtitle */}
+        {/* <p className="m-0 text-white font-poppins text-lg md:text-2xl font-extralight self-center text-right">
           Check out our upcoming Looney&apos;s Event on May 2nd!
-        </p>
+        </p> */}
 
-        <p className="m-0 text-white font-poppins font-bold text-right text-lg md:text-2xl self-center">
+        {/* <p className="m-0 text-white font-poppins font-bold text-right text-lg md:text-2xl self-center">
           <img className="w-1/4 md:w-1/2 mx-auto" src="MM18.jpeg" />
-        </p>
+        </p> */}
         <a
           target="_blank"
           rel="noreferrer"
