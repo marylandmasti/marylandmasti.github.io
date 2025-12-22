@@ -1,18 +1,28 @@
-"use client";
-import { sponsors } from "@/data/sponsors";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
-const Sponsors = () => {
+export default function Sponsors() {
+  const [ref, visible] = useScrollAnimation(0.3);
+
   return (
-    <Row className="m-0 p-0 bg-masti-beige justify-content-center">
-      {sponsors.map((sponsor, index) => (
-        <Col key={index} className={`p-2 ${sponsor.color} d-flex align-items-center justify-content-center`} xs={6} md={4} lg={3} xl={2}>
-          <img src={sponsor.image} className="object-contain" style={{ maxWidth: '200px', maxHeight: '200px' }} />
-        </Col>
-      ))}
-    </Row>
+    <section id="sponsors" className="relative py-20">
+      <div 
+        ref={ref}
+        className={`max-w-4xl mx-auto px-6 flex items-center justify-center gap-4 transition-all duration-700 ${
+          visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+        }`}
+      >
+        <span className="text-white/80 text-lg tracking-wider">
+          Interested in becoming a sponsor?
+        </span>
+        <a 
+          href="/sponsorship-packet.pdf" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white/80 text-lg tracking-wider border-b border-white/30 hover:text-[var(--accent)] hover:border-[var(--accent)] transition-all duration-300"
+        >
+          Learn more
+        </a>
+      </div>
+    </section>
   );
-};
-
-export default Sponsors;
+}
