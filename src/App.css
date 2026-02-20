@@ -164,6 +164,49 @@
   80% { transform: translate(-20px, 60px); }
 }
 
+.ticket-bar {
+  position: relative;
+  overflow: hidden;
+  background-size: 220% 220%;
+  animation: ticketBarShift 8s ease infinite;
+}
+
+.ticket-cta {
+  position: relative;
+  overflow: hidden;
+  animation: ticketCtaPulse 1.8s ease-in-out infinite;
+}
+
+.ticket-cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(100deg, transparent 30%, rgba(255, 255, 255, 0.22) 50%, transparent 70%);
+  transform: translateX(-130%);
+  transition: transform 0.5s ease;
+}
+
+.ticket-cta:hover::before {
+  transform: translateX(130%);
+}
+
+@keyframes ticketBarShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes ticketCtaPulse {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.45), 0 0 0 rgba(255, 255, 255, 0);
+  }
+  50% {
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.45), 0 0 12px rgba(255, 255, 255, 0.45);
+  }
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -173,11 +216,17 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--accent);
+  background: #111;
   border-radius: 4px;
 }
 
-::-webkit-scrollbar-thumb:hover {
+html.is-scrolling::-webkit-scrollbar-thumb,
+body.is-scrolling::-webkit-scrollbar-thumb {
+  background: var(--accent);
+}
+
+html.is-scrolling::-webkit-scrollbar-thumb:hover,
+body.is-scrolling::-webkit-scrollbar-thumb:hover {
   background: #ff1a4a;
 }
 
